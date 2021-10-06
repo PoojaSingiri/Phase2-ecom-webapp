@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Feedback form</h1>
+<p>Please provide your feedback below: </p>
+<form action="feedback" method="post">
+<fieldset>
+User Name : <input type="username" name="username" id="username" required/> <br><br>
+User Email : <input type="email" name="useremail" id="useremail" required/> <br><br>
+</fieldset>
+<label>How do you rate the overall experience</label>
+<p>
+<label class="radio-inline">
+<input type="radio" name="experience" id="radio_experience" value="bad">
+Bad
+</label>
+<label class="radio-inline">
+<input type="radio" name="experience" id="radio_experience" value="average">
+Average
+</label>
+<label class="radio-inline">
+<input type="radio" name="experience" id="radio_experience" value="good">
+Good
+</label>
+</p>
+<label for="comments">Comments:</label>
+<textarea class="form-control" type="textarea" name="comments" id="comments" placeholder="comments"></textarea>
+</form>
+</body>
+</html>
